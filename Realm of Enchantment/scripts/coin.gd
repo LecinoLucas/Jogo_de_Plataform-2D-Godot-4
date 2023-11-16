@@ -1,5 +1,6 @@
 extends Area2D
 
+var coins := 1
 
 # Called when the node enters the scene tree for the first time.
 func _ready():
@@ -13,7 +14,10 @@ func _process(delta):
 
 func _on_body_entered(body: Node2D) -> void:
 	$AnimatedSprite2D.play("colect")
-	
+	#Evita a colisao de moedas 
+	await $CollisionShape2D.call_deferred("queue_free")
+	Globals.coins += coins
+	print(Globals.coins)
 	
 
 

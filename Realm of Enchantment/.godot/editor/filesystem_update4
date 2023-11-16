@@ -3,7 +3,3 @@ res://shader/movementeClould.gdshader
 res://items/move_plataforma.tscn
 res://items/hitbox.tscn
 res://levels/mundo_01.tscn
-res://actor/inimigo.tscn
-res://actor/boss.tscn
-res://scripts/Player.gd
-res://singletons/globals.gd

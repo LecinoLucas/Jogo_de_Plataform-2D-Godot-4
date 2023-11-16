@@ -15,6 +15,10 @@ run/main_scene="res://levels/mundo_01.tscn"
 config/features=PackedStringArray("4.1", "GL Compatibility")
 config/icon="res://icon.svg"
 
+[autoload]
+
+Globals="*res://singletons/globals.gd"
+
 [display]
 
 window/size/viewport_width=800
