@@ -1,11 +1,36 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1696341254
+::res://::1700152920
 icon.svg::CompressedTexture2D::1257477303976451982::1695159145::1695159158::1::::<><>::
-::res://actor/::1695329350
-boss.tscn::PackedScene::7378595482370449632::1695329350::0::1::::<><>::res://scripts/boss.gd<>uid://bvvvbvsjv1iao::::res://assets/Sprite Pack 7/1 - Diego/Running (32 x 48).png<>uid://dqxape7iu3okd::::res://assets/Sprite Pack 7/1 - Diego/Hurt (32 x 48).png<>res://scripts/hitBoss.gd
-inimigo.tscn::PackedScene::1739246188080382752::1695329350::0::1::::<><>::res://scripts/inimigo2.gd<>uid://1dnl42bua8hb::::res://assets/Sprite Pack 2/4 - Robo Pumpkin/Walking (16 x 16).png<>uid://bybjai5qnt156::::res://assets/Sprite Pack 2/4 - Robo Pumpkin/Hurt (16 x 16).png<>uid://6462iweusgkg::::res://assets/Sprite Pack 2/4 - Robo Pumpkin/Standing (16 x 16).png<>uid://7fi2h4ammkws::::res://items/hitbox.tscn
-player.tscn::PackedScene::6653198327810248232::1695329349::0::1::::<><>::res://scripts/Player.gd<>uid://8mykg2l2c13v::::res://assets/Sprite Pack 7/3 - Gordon/Idle (48 x 48).png<>uid://bnngwtyono8a1::::res://assets/Sprite Pack 7/3 - Gordon/Jump (48 x 64).png<>uid://biklhiyted1f6::::res://assets/Sprite Pack 7/3 - Gordon/Running (48 x 48).png
-::res://assets/::1695321125
+::res://actor/::1700146558
+boss.tscn::PackedScene::7378595482370449632::1700140357::0::1::::<><>::res://scripts/boss.gd<>uid://bvvvbvsjv1iao::::res://assets/Sprite Pack 7/1 - Diego/Running (32 x 48).png<>uid://dqxape7iu3okd::::res://assets/Sprite Pack 7/1 - Diego/Hurt (32 x 48).png<>res://scripts/hitBoss.gd
+dialogo.tscn::PackedScene::6666291605012434352::1696364698::0::1::::<><>::uid://bvj7yfe67hxou
+inimigo.tscn::PackedScene::1739246188080382752::1700140356::0::1::::<><>::res://scripts/inimigo2.gd<>uid://1dnl42bua8hb::::res://assets/Sprite Pack 2/4 - Robo Pumpkin/Walking (16 x 16).png<>uid://bybjai5qnt156::::res://assets/Sprite Pack 2/4 - Robo Pumpkin/Hurt (16 x 16).png<>uid://6462iweusgkg::::res://assets/Sprite Pack 2/4 - Robo Pumpkin/Standing (16 x 16).png<>uid://7fi2h4ammkws::::res://items/hitbox.tscn
+player.tscn::PackedScene::6653198327810248232::1700146558::0::1::::<><>::res://scripts/Player.gd<>uid://8mykg2l2c13v::::res://assets/Sprite Pack 7/3 - Gordon/Idle (48 x 48).png<>uid://bnngwtyono8a1::::res://assets/Sprite Pack 7/3 - Gordon/Jump (48 x 64).png<>uid://biklhiyted1f6::::res://assets/Sprite Pack 7/3 - Gordon/Running (48 x 48).png
+::res://assets/::1700144205
+Dialog_Box(16 x 16).png::CompressedTexture2D::3880951872948094948::1696361889::1696361912::1::::<><>::
+RevMiniPixel.ttf::FontFile::7000122787300982011::1696362339::1696362349::1::::<><>::
+::res://assets/drive-download-20231116T141523Z-001/::1700144228
+brick-piece-01.png::CompressedTexture2D::2581335420662437372::1687435564::1700144228::1::::<><>::
+brick-piece-02.png::CompressedTexture2D::2664228570197984691::1687435564::1700144228::1::::<><>::
+brick-piece-03.png::CompressedTexture2D::6068281191967645632::1687435564::1700144228::1::::<><>::
+brick-piece-04.png::CompressedTexture2D::8832023149351108486::1687435564::1700144228::1::::<><>::
+checkpoint.png::CompressedTexture2D::9171892016162110165::1693231318::1700144228::1::::<><>::
+Dialog_Box(16 x 16).png::CompressedTexture2D::7495711825246909469::1689586816::1700144228::1::::<><>::
+falling-platform-brown.png::CompressedTexture2D::8119525389123316795::1689061718::1700144227::1::::<><>::
+falling-platform-green.png::CompressedTexture2D::1805797956214217601::1689061740::1700144227::1::::<><>::
+Life-Counter-Icon.png::CompressedTexture2D::3002598142305877219::1691074916::1700144227::1::::<><>::
+RevMiniPixel.ttf::FontFile::6325410760494639285::1530645926::1700144227::1::::<><>::
+Spike.png::CompressedTexture2D::1695560795670364093::1569402624::1700144227::1::::<><>::
+transition.gdshader::Shader::-1::1695407206::0::1::::<><>::
+::res://assets/drive-download-20231116T141523Z-001/Coin-Sprites/::1700144228
+00_Coin-Sprites.png::CompressedTexture2D::7592022836763861651::1690997908::1700144228::1::::<><>::
+01_Coin-Sprites.png::CompressedTexture2D::4111998555426789420::1690998006::1700144228::1::::<><>::
+02_Coin-Sprites.png::CompressedTexture2D::8132863911515125871::1690998026::1700144228::1::::<><>::
+03_Coin-Sprites.png::CompressedTexture2D::3690271251580292210::1690998058::1700144228::1::::<><>::
+::res://assets/drive-download-20231116T141523Z-001/Title GameOver Screen/::1700144228
+game_logo.png::CompressedTexture2D::7828644973869781783::1698865756::1700144228::1::::<><>::
+game_over.png::CompressedTexture2D::9093926028446153325::1698851864::1700144228::1::::<><>::
+title-screen.jpg::CompressedTexture2D::2570046985530698971::1698865210::1700144228::1::::<><>::
 ::res://assets/Mini FX, Items & UI/::1695321123
 LICENSE.txt::TextFile::-1::1593868726::0::1::::<><>::
 ::res://assets/Mini FX, Items & UI/Common Pick-ups/::1695321123
@@ -42,6 +67,13 @@ Mouse_Icons_Outlined_Drop-shadowed (16 x 16).png::CompressedTexture2D::602424447
 Speech_Emotes (16 x 16).png::CompressedTexture2D::7565736039603776865::1594071242::1695159685::1::::<><>::
 Timer_Coin_Numbers_Drop-shadowed (8 x 8).png::CompressedTexture2D::7206152207310571471::1594133632::1695159685::1::::<><>::
 Timer_Coin_Numbers_Outlined (8 x 8).png::CompressedTexture2D::5150322679498671759::1594133594::1695159685::1::::<><>::
+::res://assets/mini_ui_buttons/::1700139356
+ui_buttons_arrow_left_NORMAL.png::CompressedTexture2D::7367508504820462767::1686067480::1700139356::1::::<><>::
+ui_buttons_arrow_left_PRESSED.png::CompressedTexture2D::7864096252238662208::1686068426::1700139356::1::::<><>::
+ui_buttons_arrow_right_NORMAL.png::CompressedTexture2D::4071257811693340213::1686067470::1700139356::1::::<><>::
+ui_buttons_arrow_right_PRESSED.png::CompressedTexture2D::7705432406074206358::1686068464::1700139356::1::::<><>::
+ui_buttons_arrow_up_NORMAL.png::CompressedTexture2D::3263696246410026045::1686067456::1700139356::1::::<><>::
+ui_buttons_arrow_up_PRESSED.png::CompressedTexture2D::3088329393819318316::1686068516::1700139356::1::::<><>::
 ::res://assets/Seasonal Tilesets/::1695321124
 LICENSE.txt::TextFile::-1::1594744344::0::1::::<><>::
 ::res://assets/Seasonal Tilesets/1 - Grassland/::1695321124
@@ -269,20 +301,23 @@ Running (48 x 48).png::CompressedTexture2D::2969256055946596969::1612718490::169
 Run_stab (80 x 48).png::CompressedTexture2D::3810575822820124369::1612718564::1695159682::1::::<><>::
 Standing (48 x 48).png::CompressedTexture2D::2597832999775094053::1612718174::1695159682::1::::<><>::
 Up_swing (80 x 64).png::CompressedTexture2D::2327774297530793346::1612718356::1695159682::1::::<><>::
-::res://items/::1695329349
-coin.tscn::PackedScene::5742637929919078249::1695324175::0::1::::<><>::uid://840p0qxaa4ja::::res://assets/Mini FX, Items & UI/Common Pick-ups/Coin (16 x 16).png<>res://scripts/coin.gd<>uid://sxy4j37cc0bt::::res://assets/Mini FX, Items & UI/Effects/Yellow_Sparkle (16 x 16).png
-hitbox.tscn::PackedScene::2256899250044198150::1695329349::0::1::::<><>::
-move_plataforma.tscn::PackedScene::6686110605462264718::1695329349::0::1::::<><>::uid://d3eooj4b6jk5b::::res://assets/Seasonal Tilesets/5 - Misc. universal tiles/Blocks (16 x 16).png<>res://scripts/move_plataforma.gd
-::res://levels/::1695329349
-mundo_01.tscn::PackedScene::4347586853931468081::1695329349::0::1::::<><>::res://scripts/mundo_01.gd<>uid://bdp0aap1qlhpn::::res://assets/Seasonal Tilesets/1 - Grassland/Terrain (16 x 16).png<>uid://5wclm6gqqs1f::::res://assets/Seasonal Tilesets/1 - Grassland/Grassland_entities (16 x 16).png<>uid://cn21n4kcwrlav::::res://items/coin.tscn<>uid://c114g7kkt0o3a::::res://actor/player.tscn<>uid://c8g4ns6mdsjon::::res://assets/Seasonal Tilesets/1 - Grassland/Background parts/5 - Sky_color.png<>uid://slxy0utqnetp::::res://assets/Seasonal Tilesets/1 - Grassland/Background parts/4 - Cloud_cover_2.png<>res://shader/movementeClould.gdshader<>uid://ck2ulqnytu0km::::res://assets/Seasonal Tilesets/1 - Grassland/Background parts/3 - Cloud_cover_1.png<>uid://c4mwfs3et8a7::::res://assets/Seasonal Tilesets/1 - Grassland/Background parts/2 - Hills.png<>uid://dxxatyqg4262h::::res://assets/Seasonal Tilesets/1 - Grassland/Background parts/1 - Foreground_scenery.png<>uid://c2i2jaepet1ha::::res://items/move_plataforma.tscn<>uid://y1reo8rxu1ce::::res://actor/inimigo.tscn<>uid://ddeiniluhfe8w::::res://actor/boss.tscn
-::res://scripts/::1695327530
+::res://items/::1700146558
+coin.tscn::PackedScene::5742637929919078249::1695324175::0::1::::<><>::uid://840p0qxaa4ja
+hitbox.tscn::PackedScene::2256899250044198150::1700146558::0::1::::<><>::
+move_plataforma.tscn::PackedScene::6686110605462264718::1700146558::0::1::::<><>::uid://d3eooj4b6jk5b::::res://assets/Seasonal Tilesets/5 - Misc. universal tiles/Blocks (16 x 16).png<>res://scripts/move_plataforma.gd
+::res://levels/::1700152862
+mundo_01.tscn::PackedScene::4347586853931468081::1700152862::0::1::::<><>::res://scripts/mundo_01.gd<>uid://bdp0aap1qlhpn::::res://assets/Seasonal Tilesets/1 - Grassland/Terrain (16 x 16).png<>uid://5wclm6gqqs1f::::res://assets/Seasonal Tilesets/1 - Grassland/Grassland_entities (16 x 16).png<>uid://cn21n4kcwrlav::::res://items/coin.tscn<>uid://c114g7kkt0o3a::::res://actor/player.tscn<>uid://c8g4ns6mdsjon::::res://assets/Seasonal Tilesets/1 - Grassland/Background parts/5 - Sky_color.png<>uid://slxy0utqnetp::::res://assets/Seasonal Tilesets/1 - Grassland/Background parts/4 - Cloud_cover_2.png<>res://shader/movementeClould.gdshader<>uid://ck2ulqnytu0km::::res://assets/Seasonal Tilesets/1 - Grassland/Background parts/3 - Cloud_cover_1.png<>uid://c4mwfs3et8a7::::res://assets/Seasonal Tilesets/1 - Grassland/Background parts/2 - Hills.png<>uid://dxxatyqg4262h::::res://assets/Seasonal Tilesets/1 - Grassland/Background parts/1 - Foreground_scenery.png<>uid://c2i2jaepet1ha::::res://items/move_plataforma.tscn<>uid://y1reo8rxu1ce::::res://actor/inimigo.tscn<>uid://ddeiniluhfe8w::::res://actor/boss.tscn<>uid://dc7412x2l03t8::::res://assets/mini_ui_buttons/ui_buttons_arrow_left_NORMAL.png<>uid://dkbors4ja8ne3::::res://assets/mini_ui_buttons/ui_buttons_arrow_left_PRESSED.png<>uid://byafayw06fryj::::res://assets/mini_ui_buttons/ui_buttons_arrow_right_NORMAL.png<>uid://dh1tl06h2uabe::::res://assets/mini_ui_buttons/ui_buttons_arrow_right_PRESSED.png<>uid://bmq7uoaaqrde8::::res://assets/mini_ui_buttons/ui_buttons_arrow_up_NORMAL.png<>uid://bkaall83eaeme::::res://assets/mini_ui_buttons/ui_buttons_arrow_up_PRESSED.png<>uid://dgfvrh8yg3sch::::res://assets/drive-download-20231116T141523Z-001/Coin-Sprites/00_Coin-Sprites.png<>res://scripts/hud_manager.gd<>uid://byt5ar30rr4lk::::res://assets/drive-download-20231116T141523Z-001/Coin-Sprites/01_Coin-Sprites.png<>uid://dn4vcy65s8hmt::::res://assets/drive-download-20231116T141523Z-001/Coin-Sprites/02_Coin-Sprites.png<>uid://bstuh08nhmt8u::::res://assets/drive-download-20231116T141523Z-001/Coin-Sprites/03_Coin-Sprites.png<>uid://bi1ql80ixv6eh::::res://assets/drive-download-20231116T141523Z-001/Life-Counter-Icon.png
+::res://scripts/::1700152850
 boss.gd::GDScript::-1::1695327530::0::1::::<>CharacterBody2D<>::
 coin.gd::GDScript::-1::1695321024::0::1::::<>Area2D<>::
 hitBoss.gd::GDScript::-1::1695327477::0::1::::<>Area2D<>::
 hitbox.gd::GDScript::-1::1695314931::0::1::::<>Area2D<>::
+hud_manager.gd::GDScript::-1::1700152850::0::1::::<>Control<>::
 inimigo2.gd::GDScript::-1::1695318061::0::1::::<>CharacterBody2D<>::
 move_plataforma.gd::GDScript::-1::1695242761::0::1::::<>Node2D<>::
 mundo_01.gd::GDScript::-1::1695319611::0::1::::<>Node2D<>::
-Player.gd::GDScript::-1::1695326701::0::1::::<>CharacterBody2D<>::
-::res://shader/::1695329405
-movementeClould.gdshader::Shader::-1::1695329405::0::1::::<><>::
+Player.gd::GDScript::-1::1700140564::0::1::::<>CharacterBody2D<>::
+::res://shader/::1700152893
+movementeClould.gdshader::Shader::-1::1700152893::0::1::::<><>::
+::res://singletons/::1700144891
+globals.gd::GDScript::-1::1700144891::0::1::::<>Node<>::
