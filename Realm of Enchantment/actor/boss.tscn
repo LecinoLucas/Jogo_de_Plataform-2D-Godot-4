@@ -1,0 +1,177 @@
+[gd_scene load_steps=11 format=3 uid="uid://ddeiniluhfe8w"]
+
+[ext_resource type="Script" path="res://scripts/boss.gd" id="1_42fi7"]
+[ext_resource type="Texture2D" uid="uid://bvvvbvsjv1iao" path="res://assets/Sprite Pack 7/1 - Diego/Running (32 x 48).png" id="2_qf8hw"]
+[ext_resource type="Texture2D" uid="uid://dqxape7iu3okd" path="res://assets/Sprite Pack 7/1 - Diego/Hurt (32 x 48).png" id="3_b80nq"]
+[ext_resource type="Script" path="res://scripts/hitBoss.gd" id="4_jkn3b"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_bm0ev"]
+size = Vector2(139, 38)
+
+[sub_resource type="Animation" id="Animation_nlfb5"]
+length = 0.001
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("textura:texture")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [ExtResource("2_qf8hw")]
+}
+tracks/1/type = "value"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath("textura:hframes")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [6]
+}
+tracks/2/type = "value"
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/path = NodePath("textura:frame")
+tracks/2/interp = 1
+tracks/2/loop_wrap = true
+tracks/2/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [0]
+}
+
+[sub_resource type="Animation" id="Animation_60iuf"]
+resource_name = "hurt"
+length = 0.1
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("textura:texture")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [ExtResource("3_b80nq")]
+}
+tracks/1/type = "value"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath("textura:hframes")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [1]
+}
+tracks/2/type = "value"
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/path = NodePath("textura:frame")
+tracks/2/interp = 1
+tracks/2/loop_wrap = true
+tracks/2/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [0]
+}
+
+[sub_resource type="Animation" id="Animation_ahp3y"]
+resource_name = "running"
+length = 0.6
+loop_mode = 1
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("textura:texture")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [ExtResource("2_qf8hw")]
+}
+tracks/1/type = "value"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath("textura:hframes")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [6]
+}
+tracks/2/type = "value"
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/path = NodePath("textura:frame")
+tracks/2/interp = 1
+tracks/2/loop_wrap = true
+tracks/2/keys = {
+"times": PackedFloat32Array(0, 0.1, 0.2, 0.3, 0.4, 0.5),
+"transitions": PackedFloat32Array(1, 1, 1, 1, 1, 1),
+"update": 1,
+"values": [0, 1, 2, 3, 4, 5]
+}
+
+[sub_resource type="AnimationLibrary" id="AnimationLibrary_5ysy4"]
+_data = {
+"RESET": SubResource("Animation_nlfb5"),
+"hurt": SubResource("Animation_60iuf"),
+"running": SubResource("Animation_ahp3y")
+}
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_ywqoi"]
+size = Vector2(17.5938, 7)
+
+[node name="boss" type="CharacterBody2D" groups=["boss"]]
+collision_layer = 4
+collision_mask = 6
+script = ExtResource("1_42fi7")
+
+[node name="textura" type="Sprite2D" parent="."]
+position = Vector2(0, -8)
+texture = ExtResource("2_qf8hw")
+flip_h = true
+hframes = 6
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(7.5, -8)
+shape = SubResource("RectangleShape2D_bm0ev")
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="."]
+autoplay = "running"
+speed_scale = 0.6
+libraries = {
+"": SubResource("AnimationLibrary_5ysy4")
+}
+
+[node name="wall_detection" type="RayCast2D" parent="."]
+position = Vector2(0, -5)
+target_position = Vector2(-100, 0)
+collision_mask = 2
+
+[node name="Area2D" type="Area2D" parent="."]
+script = ExtResource("4_jkn3b")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Area2D"]
+position = Vector2(40, -31)
+shape = SubResource("RectangleShape2D_ywqoi")
+debug_color = Color(0.568627, 0, 0, 0.419608)
+
+[connection signal="animation_finished" from="AnimationPlayer" to="." method="_on_animation_player_animation_finished"]
+[connection signal="body_entered" from="Area2D" to="Area2D" method="_on_body_entered"]
