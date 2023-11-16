@@ -1,6 +1,6 @@
 # Jogo_de_Plataform-2D-Godot-4
 
-# "Realm of Enchantment: Aventuras em Duas Dimensões
+# "Realm of Enchantment: Aventura em Duas Dimensões
 
 **Realm of Enchantment** é um jogo de plataforma 2D criado na Godot 4.0, onde o objetivo é coletar todas as moedas enquanto enfrenta inimigos.
 
