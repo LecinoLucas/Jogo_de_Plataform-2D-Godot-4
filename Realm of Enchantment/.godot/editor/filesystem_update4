@@ -3,3 +3,7 @@ res://shader/movementeClould.gdshader
 res://items/move_plataforma.tscn
 res://items/hitbox.tscn
 res://levels/mundo_01.tscn
+res://scripts/Player.gd
+res://scripts/mundo_01.gd
+res://scripts/hud_manager.gd
+res://singletons/globals.gd

@@ -1,3 +1,5 @@
+Timer
+RayCast2D
 Label
 TextureRect
 TextEdit
@@ -6,7 +8,6 @@ MarginContainer
 Control
 CanvasLayer
 TouchScreenButton
-Timer
 NinePatchRect
 CollisionShape2D
 Area2D
@@ -15,7 +16,6 @@ Sprite2D
 CharacterBody2D
 RemoteTransform2D
 Node2D
-RayCast2D
 AnimatedSprite2D
 AnimatableBody2D
 ParallaxLayer

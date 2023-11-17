@@ -1,12 +1,12 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1700162722
+::res://::1700230049
 icon.svg::CompressedTexture2D::1257477303976451982::1700155217::1700158369::1::::<><>::
 README.md::TextFile::-1::1700155216::0::1::::<><>::
 ::res://actor/::1700162676
 boss.tscn::PackedScene::7378595482370449632::1700155216::0::1::::<><>::res://scripts/boss.gd<>uid://bvvvbvsjv1iao
 dialogo.tscn::PackedScene::6666291605012434352::1700155216::0::1::::<><>::uid://bvj7yfe67hxou
 inimigo.tscn::PackedScene::1739246188080382752::1700155216::0::1::::<><>::res://scripts/inimigo2.gd<>uid://1dnl42bua8hb
-player.tscn::PackedScene::6653198327810248232::1700162676::0::1::::<><>::res://scripts/Player.gd<>uid://8mykg2l2c13v::::res://assets/Sprite Pack 7/3 - Gordon/Idle (48 x 48).png<>uid://bnngwtyono8a1::::res://assets/Sprite Pack 7/3 - Gordon/Jump (48 x 64).png<>uid://biklhiyted1f6::::res://assets/Sprite Pack 7/3 - Gordon/Running (48 x 48).png
+player.tscn::PackedScene::6653198327810248232::1700162676::0::1::::<><>::res://scripts/Player.gd<>uid://8mykg2l2c13v
 ::res://assets/::1700162590
 Dialog_Box(16 x 16).png::CompressedTexture2D::3880951872948094948::1700155216::1700155216::1::::<><>::
 RevMiniPixel.ttf::FontFile::7000122787300982011::1700155216::1700155216::1::::<><>::
@@ -305,11 +305,11 @@ Up_swing (80 x 64).png::CompressedTexture2D::2327774297530793346::1700155216::17
 ::res://items/::1700162676
 coin.tscn::PackedScene::5742637929919078249::1700155217::0::1::::<><>::uid://840p0qxaa4ja
 hitbox.tscn::PackedScene::2256899250044198150::1700162676::0::1::::<><>::
-move_plataforma.tscn::PackedScene::6686110605462264718::1700162676::0::1::::<><>::uid://d3eooj4b6jk5b::::res://assets/Seasonal Tilesets/5 - Misc. universal tiles/Blocks (16 x 16).png<>res://scripts/move_plataforma.gd
-::res://levels/::1700162677
-mundo_01.tscn::PackedScene::4347586853931468081::1700162677::0::1::::<><>::res://scripts/mundo_01.gd<>uid://bdp0aap1qlhpn::::res://assets/Seasonal Tilesets/1 - Grassland/Terrain (16 x 16).png<>uid://5wclm6gqqs1f::::res://assets/Seasonal Tilesets/1 - Grassland/Grassland_entities (16 x 16).png<>uid://cn21n4kcwrlav::::res://items/coin.tscn<>uid://c114g7kkt0o3a::::res://actor/player.tscn<>uid://c8g4ns6mdsjon::::res://assets/Seasonal Tilesets/1 - Grassland/Background parts/5 - Sky_color.png<>uid://slxy0utqnetp::::res://assets/Seasonal Tilesets/1 - Grassland/Background parts/4 - Cloud_cover_2.png<>res://shader/movementeClould.gdshader<>uid://ck2ulqnytu0km::::res://assets/Seasonal Tilesets/1 - Grassland/Background parts/3 - Cloud_cover_1.png<>uid://c4mwfs3et8a7::::res://assets/Seasonal Tilesets/1 - Grassland/Background parts/2 - Hills.png<>uid://dxxatyqg4262h::::res://assets/Seasonal Tilesets/1 - Grassland/Background parts/1 - Foreground_scenery.png<>uid://c2i2jaepet1ha::::res://items/move_plataforma.tscn<>uid://y1reo8rxu1ce::::res://actor/inimigo.tscn<>uid://ddeiniluhfe8w::::res://actor/boss.tscn<>uid://dc7412x2l03t8::::res://assets/mini_ui_buttons/ui_buttons_arrow_left_NORMAL.png<>uid://dkbors4ja8ne3::::res://assets/mini_ui_buttons/ui_buttons_arrow_left_PRESSED.png<>uid://byafayw06fryj::::res://assets/mini_ui_buttons/ui_buttons_arrow_right_NORMAL.png<>uid://dh1tl06h2uabe::::res://assets/mini_ui_buttons/ui_buttons_arrow_right_PRESSED.png<>uid://bmq7uoaaqrde8::::res://assets/mini_ui_buttons/ui_buttons_arrow_up_NORMAL.png<>uid://bkaall83eaeme::::res://assets/mini_ui_buttons/ui_buttons_arrow_up_PRESSED.png<>uid://dgfvrh8yg3sch::::res://assets/drive-download-20231116T141523Z-001/Coin-Sprites/00_Coin-Sprites.png<>res://scripts/hud_manager.gd<>uid://byt5ar30rr4lk::::res://assets/drive-download-20231116T141523Z-001/Coin-Sprites/01_Coin-Sprites.png<>uid://dn4vcy65s8hmt::::res://assets/drive-download-20231116T141523Z-001/Coin-Sprites/02_Coin-Sprites.png<>uid://bstuh08nhmt8u::::res://assets/drive-download-20231116T141523Z-001/Coin-Sprites/03_Coin-Sprites.png<>uid://bi1ql80ixv6eh::::res://assets/drive-download-20231116T141523Z-001/Life-Counter-Icon.png
+move_plataforma.tscn::PackedScene::6686110605462264718::1700162676::0::1::::<><>::uid://d3eooj4b6jk5b
+::res://levels/::1700163387
+mundo_01.tscn::PackedScene::4347586853931468081::1700163387::0::1::::<><>::res://scripts/mundo_01.gd<>uid://bdp0aap1qlhpn::::res://assets/Seasonal Tilesets/1 - Grassland/Terrain (16 x 16).png<>uid://5wclm6gqqs1f::::res://assets/Seasonal Tilesets/1 - Grassland/Grassland_entities (16 x 16).png<>uid://cn21n4kcwrlav::::res://items/coin.tscn<>uid://c114g7kkt0o3a::::res://actor/player.tscn<>uid://c8g4ns6mdsjon::::res://assets/Seasonal Tilesets/1 - Grassland/Background parts/5 - Sky_color.png<>uid://slxy0utqnetp::::res://assets/Seasonal Tilesets/1 - Grassland/Background parts/4 - Cloud_cover_2.png<>res://shader/movementeClould.gdshader<>uid://ck2ulqnytu0km::::res://assets/Seasonal Tilesets/1 - Grassland/Background parts/3 - Cloud_cover_1.png<>uid://c4mwfs3et8a7::::res://assets/Seasonal Tilesets/1 - Grassland/Background parts/2 - Hills.png<>uid://dxxatyqg4262h::::res://assets/Seasonal Tilesets/1 - Grassland/Background parts/1 - Foreground_scenery.png<>uid://c2i2jaepet1ha::::res://items/move_plataforma.tscn<>uid://y1reo8rxu1ce::::res://actor/inimigo.tscn<>uid://ddeiniluhfe8w::::res://actor/boss.tscn<>uid://dc7412x2l03t8::::res://assets/mini_ui_buttons/ui_buttons_arrow_left_NORMAL.png<>uid://dkbors4ja8ne3::::res://assets/mini_ui_buttons/ui_buttons_arrow_left_PRESSED.png<>uid://byafayw06fryj::::res://assets/mini_ui_buttons/ui_buttons_arrow_right_NORMAL.png<>uid://dh1tl06h2uabe::::res://assets/mini_ui_buttons/ui_buttons_arrow_right_PRESSED.png<>uid://bmq7uoaaqrde8::::res://assets/mini_ui_buttons/ui_buttons_arrow_up_NORMAL.png<>uid://bkaall83eaeme::::res://assets/mini_ui_buttons/ui_buttons_arrow_up_PRESSED.png<>uid://dgfvrh8yg3sch::::res://assets/drive-download-20231116T141523Z-001/Coin-Sprites/00_Coin-Sprites.png<>res://scripts/hud_manager.gd<>uid://byt5ar30rr4lk::::res://assets/drive-download-20231116T141523Z-001/Coin-Sprites/01_Coin-Sprites.png<>uid://dn4vcy65s8hmt::::res://assets/drive-download-20231116T141523Z-001/Coin-Sprites/02_Coin-Sprites.png<>uid://bstuh08nhmt8u::::res://assets/drive-download-20231116T141523Z-001/Coin-Sprites/03_Coin-Sprites.png<>uid://bi1ql80ixv6eh::::res://assets/drive-download-20231116T141523Z-001/Life-Counter-Icon.png
 ::res://Nova pasta/::1700155361
-::res://scripts/::1700162590
+::res://scripts/::1700163453
 boss.gd::GDScript::-1::1700159986::0::1::::<>CharacterBody2D<>::
 coin.gd::GDScript::-1::1700159927::0::1::::<>Area2D<>::
 hitBoss.gd::GDScript::-1::1700155217::0::1::::<>Area2D<>::
@@ -318,8 +318,8 @@ hud_manager.gd::GDScript::-1::1700159450::0::1::::<>Control<>::
 inimigo2.gd::GDScript::-1::1700159927::0::1::::<>CharacterBody2D<>::
 move_plataforma.gd::GDScript::-1::1700155217::0::1::::<>Node2D<>::
 mundo_01.gd::GDScript::-1::1700155217::0::1::::<>Node2D<>::
-Player.gd::GDScript::-1::1700155217::0::1::::<>CharacterBody2D<>::
-::res://shader/::1700162702
-movementeClould.gdshader::Shader::-1::1700162702::0::1::::<><>::
-::res://singletons/::1700162590
-globals.gd::GDScript::-1::1700155217::0::1::::<>Node<>::
+Player.gd::GDScript::-1::1700163453::0::1::::<>CharacterBody2D<>::
+::res://shader/::1700163453
+movementeClould.gdshader::Shader::-1::1700163453::0::1::::<><>::
+::res://singletons/::1700163159
+globals.gd::GDScript::-1::1700163159::0::1::::<>Node<>::
