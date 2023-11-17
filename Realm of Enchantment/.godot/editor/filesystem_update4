@@ -7,3 +7,5 @@ res://scripts/Player.gd
 res://scripts/mundo_01.gd
 res://scripts/hud_manager.gd
 res://singletons/globals.gd
+res://Nova pasta/pause_menu.tscn
+res://scripts/pause_menu.gd

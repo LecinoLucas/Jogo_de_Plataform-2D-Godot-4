@@ -1,4 +1,4 @@
-[gd_scene load_steps=33 format=3 uid="uid://b27aedcbawa0p"]
+[gd_scene load_steps=34 format=3 uid="uid://b27aedcbawa0p"]
 
 [ext_resource type="Script" path="res://scripts/mundo_01.gd" id="1_14lgv"]
 [ext_resource type="Texture2D" uid="uid://bdp0aap1qlhpn" path="res://assets/Seasonal Tilesets/1 - Grassland/Terrain (16 x 16).png" id="1_dvbw1"]
@@ -26,6 +26,7 @@
 [ext_resource type="Texture2D" uid="uid://dn4vcy65s8hmt" path="res://assets/drive-download-20231116T141523Z-001/Coin-Sprites/02_Coin-Sprites.png" id="23_ttsew"]
 [ext_resource type="Texture2D" uid="uid://bstuh08nhmt8u" path="res://assets/drive-download-20231116T141523Z-001/Coin-Sprites/03_Coin-Sprites.png" id="24_j1jmj"]
 [ext_resource type="Texture2D" uid="uid://bi1ql80ixv6eh" path="res://assets/drive-download-20231116T141523Z-001/Life-Counter-Icon.png" id="25_j0ofm"]
+[ext_resource type="PackedScene" uid="uid://bt2xgynypom0c" path="res://Nova pasta/pause_menu.tscn" id="27_n3b05"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_13vt8"]
 texture = ExtResource("1_dvbw1")
@@ -487,7 +488,7 @@ limit_smoothed = true
 editor_draw_limits = true
 
 [node name="boss" parent="." instance=ExtResource("14_bs2vg")]
-position = Vector2(1811, 230)
+position = Vector2(1810, 233)
 collision_mask = 2
 
 [node name="controles2" type="CanvasLayer" parent="."]
@@ -525,7 +526,7 @@ grow_horizontal = 2
 grow_vertical = 2
 script = ExtResource("21_r1ofs")
 default_minutes = 2
-default_seconds = 29
+default_seconds = 59
 
 [node name="container" type="MarginContainer" parent="HUD/control"]
 layout_mode = 1
@@ -647,5 +648,7 @@ horizontal_alignment = 1
 
 [node name="clock_timer" type="Timer" parent="HUD/control"]
 autostart = true
+
+[node name="pause_menu" parent="." instance=ExtResource("27_n3b05")]
 
 [connection signal="timeout" from="HUD/control/clock_timer" to="HUD/control" method="_on_clock_timer_timeout"]
