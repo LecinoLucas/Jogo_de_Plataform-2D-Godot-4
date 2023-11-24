@@ -1,5 +1,6 @@
 extends Control
-@onready var coins_counter = $container/coins_container/coins_icon/coins_counter as Label
+
+@onready var coins_counter = $container/coins_container/coins_counter as Label
 @onready var score_counter = $container/score_container/score_counter as Label
 @onready var life_counter_2 = $container/life_container/life_counter2 as Label
 @onready var timer_counter = $container/timer_container/timer_counter as Label
@@ -27,6 +28,7 @@ func _process(delta):
 
 	if minutes ==0 and seconds == 0:
 		emit_signal("time_is_up")
+	
 	
 
 func _on_clock_timer_timeout():

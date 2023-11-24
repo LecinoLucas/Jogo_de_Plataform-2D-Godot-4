@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://cr78nkrvtk5ys"
-path="res://.godot/imported/Falling (48 x 64).png-b6ef31d388b03a9203d887410f4439f6.ctex"
+uid="uid://csvaatbhabd6l"
+path="res://.godot/imported/facebook_cover_photo_2.png-aae9f882408b2268078b65a165e80c9a.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/Sprite Pack 7/3 - Gordon/Falling (48 x 64).png"
-dest_files=["res://.godot/imported/Falling (48 x 64).png-b6ef31d388b03a9203d887410f4439f6.ctex"]
+source_file="res://assets/Sprite Pack 7/HatchfulExport-All (1)/facebook_cover_photo_2.png"
+dest_files=["res://.godot/imported/facebook_cover_photo_2.png-aae9f882408b2268078b65a165e80c9a.ctex"]
 
 [params]
 

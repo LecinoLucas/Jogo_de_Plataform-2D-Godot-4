@@ -1,11 +1,13 @@
 res://actor/player.tscn
 res://shader/movementeClould.gdshader
+res://Nova pasta/new_theme.tres
 res://items/move_plataforma.tscn
 res://items/hitbox.tscn
 res://levels/mundo_01.tscn
-res://scripts/Player.gd
-res://scripts/mundo_01.gd
-res://scripts/hud_manager.gd
-res://singletons/globals.gd
 res://Nova pasta/pause_menu.tscn
-res://scripts/pause_menu.gd
+res://Nova pasta/game_over.tscn
+res://Nova pasta/title_screen.tscn
+res://items/coin.tscn
+res://scripts/mundo_01.gd
+res://scripts/Player.gd
+res://Nova pasta/parabens.tscn

@@ -23,7 +23,6 @@ Globals="*res://singletons/globals.gd"
 
 window/size/viewport_width=800
 window/size/viewport_height=420
-window/stretch/scale=2.0
 
 [input]
 
