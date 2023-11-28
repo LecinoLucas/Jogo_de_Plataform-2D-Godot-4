@@ -1,0 +1,76 @@
+[gd_scene load_steps=3 format=3 uid="uid://crt5ghump5ihr"]
+
+[ext_resource type="Theme" uid="uid://cgng4tspg8dfi" path="res://Nova pasta/new_theme.tres" id="1_41mc3"]
+[ext_resource type="Script" path="res://scripts/seguntatela.gd" id="1_tjkkp"]
+
+[node name="Control" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_tjkkp")
+
+[node name="ColorRect" type="ColorRect" parent="."]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+color = Color(0.0862745, 0.290196, 0.305882, 1)
+
+[node name="VBoxContainer" type="VBoxContainer" parent="."]
+layout_mode = 1
+anchors_preset = 14
+anchor_top = 0.5
+anchor_right = 1.0
+anchor_bottom = 0.5
+offset_top = -10.0
+offset_bottom = 10.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="Label" type="Label" parent="VBoxContainer"]
+layout_mode = 2
+size_flags_horizontal = 4
+text = "ESCOLHA UM MODO DE JOGO "
+
+[node name="Control6" type="Control" parent="VBoxContainer"]
+layout_mode = 2
+
+[node name="btnfacil" type="Button" parent="VBoxContainer"]
+layout_mode = 2
+size_flags_vertical = 8
+theme = ExtResource("1_41mc3")
+text = "FACIL"
+
+[node name="btndificil" type="Button" parent="VBoxContainer"]
+layout_mode = 2
+theme = ExtResource("1_41mc3")
+text = "DIFICL"
+
+[node name="Control" type="Control" parent="VBoxContainer"]
+layout_mode = 2
+
+[node name="Control2" type="Control" parent="VBoxContainer"]
+layout_mode = 2
+
+[node name="Control3" type="Control" parent="VBoxContainer"]
+layout_mode = 2
+
+[node name="Control4" type="Control" parent="VBoxContainer"]
+layout_mode = 2
+
+[node name="Control5" type="Control" parent="VBoxContainer"]
+layout_mode = 2
+
+[node name="voltar_btn" type="Button" parent="VBoxContainer"]
+layout_mode = 2
+theme = ExtResource("1_41mc3")
+text = "VOLTAR"
+
+[connection signal="pressed" from="VBoxContainer/btnfacil" to="." method="_on_btnfacil_pressed"]
+[connection signal="pressed" from="VBoxContainer/btndificil" to="." method="_on_btndificil_pressed"]
+[connection signal="pressed" from="VBoxContainer/voltar_btn" to="." method="_on_voltar_btn_pressed"]

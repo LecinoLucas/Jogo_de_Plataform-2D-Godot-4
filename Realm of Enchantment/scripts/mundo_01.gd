@@ -14,16 +14,28 @@ func _ready() -> void:
 	
 	Globals.coins = 0
 	Globals.score = 0
-	Globals.life = 3
+	if Globals.btnfacil == 2:
+		Globals.life = 4
+	elif Globals.btndificil == 3:
+		Globals.life = 3
 	
 
 
 # Called every frame. 'delta' is the elapsed time since the previous frame.
 func _process(delta):
-	# Verificar se todas as moedas foram coletadas e a pontuação é 10000
-	if Globals.coins == 1 and Globals.score == 100:
-		show_parabens_screen()
-		
+	if Globals.btnfacil == 2:
+		#Globals.life = 5
+		# Verificar se todas as moedas foram coletadas e a pontuação é pelo menos 2400
+		if Globals.coins >= 15 and Globals.score >= 600:
+			show_parabens_screen()
+			
+	elif Globals.btndificil == 3:
+		#Globals.life = 3
+			# Verificar se todas as moedas foram coletadas e a pontuação é pelo menos 200
+		if Globals.coins >= 34 and Globals.score >= 2800:
+			show_parabens_screen()
+			
+			
 # Adicione uma nova função para exibir a mensagem de parabéns
 func show_congratulations_message():
 	var congratulations_label = Label.new()
@@ -33,6 +45,7 @@ func show_congratulations_message():
 	
 	# Adicione a etiqueta à cena ou à interface do usuário
 	add_child(congratulations_label)
+	
 func reload_game():
 	await get_tree().create_timer(1.5).timeout
 	get_tree().reload_current_scene()

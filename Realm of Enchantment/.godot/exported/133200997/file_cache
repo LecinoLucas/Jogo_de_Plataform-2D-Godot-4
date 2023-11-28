@@ -1,0 +1,17 @@
+res://actor/boss.tscn::bcd1db59c4512b6accbe6f28f4a93b12::1700155216::res://.godot/exported/133200997/export-b3724b5b3427ea078374ec98f09241ee-boss.scn
+res://actor/dialogo.tscn::8959a9331809689c5dfa2079d27e4b50::1700155216::res://.godot/exported/133200997/export-fb6023bb3e8e791d03c4d4ced118bafb-dialogo.scn
+res://actor/inimigo.tscn::d376fb74c43bb2c02a16137bd0a5e529::1700155216::res://.godot/exported/133200997/export-3d578f549eb82e0f6937b06111e9219a-inimigo.scn
+res://actor/player.tscn::aa1b167cd463ed32c727b6cd876e17b7::1701204404::res://.godot/exported/133200997/export-5bdcd1d5085ed1d8ce72f8cba1160cee-player.scn
+res://items/coin.tscn::355d817e0a9a063043a8413ec98ab48c::1700754208::res://.godot/exported/133200997/export-01f48f9ba8ffa93a8728dc1e19d6e886-coin.scn
+res://items/hitbox.tscn::944c047149224d3be86da33bf327bbec::1701188153::res://.godot/exported/133200997/export-8f78cd171df573d83e9e7d6303e9c89f-hitbox.scn
+res://items/move_plataforma.tscn::3f63109fc15918d571e667dbf09658fe::1701188153::res://.godot/exported/133200997/export-5c39753c142fb24863a8933f42dc304b-move_plataforma.scn
+res://levels/mundo_01.tscn::e77f4a74e174b9f2a8b6cc036d1e1426::1701204406::res://.godot/exported/133200997/export-4586d1c4eaef547f209d3b78776fb891-mundo_01.scn
+res://Nova pasta/game_over.tscn::7a57239898dc5e3709e7f423d9d31afb::1701204406::res://.godot/exported/133200997/export-59bb7cecc60f44e758aa3ac4455056e6-game_over.scn
+res://Nova pasta/new_theme.tres::3bceedd7519c108717d134c6b8a19552::1701203826::res://.godot/exported/133200997/export-fd5eaaeef347826e61635641f3e442f2-new_theme.res
+res://Nova pasta/parabens.tscn::fca34a0b9d4129b4f07128fee9ca3a52::1701204406::res://.godot/exported/133200997/export-c666940dc04a2803f451cded0dd1ae4f-parabens.scn
+res://Nova pasta/pause_menu.tscn::85435d60418095a40567fa6bfb4a7830::1701204406::res://.godot/exported/133200997/export-11979d87b33516380bb881cc653577d5-pause_menu.scn
+res://Nova pasta/tema.tres::504ac30c3bb8fceeeb3a30af4a676d47::1700320213::res://.godot/exported/133200997/export-accb99f502000ad032aef015346c8161-tema.res
+res://Nova pasta/title_screen.tscn::3d41a8350c7d16079b448f86fd6f7671::1701204405::res://.godot/exported/133200997/export-338b581c8a1f9c8ee45cb484e91a2d19-title_screen.scn
+res://Nova pasta/creditos.tscn::5ed4cabd6c9c29e12b5d32f3b6655be3::1701204406::res://.godot/exported/133200997/export-fad145cd698e256da9707eae10ecb75f-creditos.scn
+res://Nova pasta/jogabilidade.tscn::48a3d808a556d9e4fb5b3b12c354183d::1701204406::res://.godot/exported/133200997/export-70918bb740d20fba9c564fed7d06ee49-jogabilidade.scn
+res://scripts/seguntatela.tscn::845b79a24cd4c5cf7cbd338a562a3681::1701204406::res://.godot/exported/133200997/export-b69cc05d2fe65a6d152ee992da92ccd9-seguntatela.scn

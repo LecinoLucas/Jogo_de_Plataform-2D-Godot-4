@@ -1,6 +1,9 @@
-[gd_scene load_steps=2 format=3 uid="uid://de0cbskcorqpo"]
+[gd_scene load_steps=3 format=3 uid="uid://de0cbskcorqpo"]
 
 [ext_resource type="Script" path="res://scripts/parabens.gd" id="1_5w3pm"]
+
+[sub_resource type="Theme" id="Theme_rx1lk"]
+Label/font_sizes/font_size = 26
 
 [node name="Control" type="Control"]
 layout_mode = 3
@@ -18,17 +21,52 @@ anchor_right = 1.0
 anchor_bottom = 1.0
 grow_horizontal = 2
 grow_vertical = 2
-color = Color(0.239216, 0.729412, 0.101961, 1)
+color = Color(0.345098, 0.705882, 0.352941, 1)
 
 [node name="VBoxContainer" type="VBoxContainer" parent="."]
 layout_mode = 1
-anchors_preset = 15
-anchor_right = 1.0
-anchor_bottom = 1.0
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -116.5
+offset_top = -19.0
+offset_right = 116.5
+offset_bottom = 19.0
 grow_horizontal = 2
 grow_vertical = 2
 
 [node name="Label" type="Label" parent="VBoxContainer"]
 layout_mode = 2
 size_flags_horizontal = 4
-text = "parabens "
+theme = SubResource("Theme_rx1lk")
+theme_override_font_sizes/font_size = 36
+text = "Parabéns! Você venceu o jogo!"
+
+[node name="Label2" type="Label" parent="VBoxContainer"]
+layout_mode = 2
+size_flags_horizontal = 4
+theme = SubResource("Theme_rx1lk")
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_colors/font_outline_color = Color(0, 0, 0, 1)
+theme_override_font_sizes/font_size = 18
+text = "Todas as moedas necessarias foram colhidas
+ e os inimigos derrtados"
+
+[node name="HSeparator" type="HSeparator" parent="VBoxContainer"]
+layout_mode = 2
+
+[node name="Button" type="Button" parent="VBoxContainer"]
+layout_mode = 2
+size_flags_horizontal = 4
+text = "Restart"
+
+[node name="Button2" type="Button" parent="VBoxContainer"]
+layout_mode = 2
+size_flags_horizontal = 4
+text = "Quit Game
+"
+
+[connection signal="pressed" from="VBoxContainer/Button" to="." method="_on_button_pressed"]
+[connection signal="pressed" from="VBoxContainer/Button2" to="." method="_on_button_2_pressed"]

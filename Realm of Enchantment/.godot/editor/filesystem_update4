@@ -1,13 +1,11 @@
-res://actor/player.tscn
-res://shader/movementeClould.gdshader
-res://Nova pasta/new_theme.tres
-res://items/move_plataforma.tscn
-res://items/hitbox.tscn
 res://levels/mundo_01.tscn
-res://Nova pasta/pause_menu.tscn
-res://Nova pasta/game_over.tscn
+res://Nova pasta/new_theme.tres
+res://shader/movementeClould.gdshader
+res://actor/player.tscn
 res://Nova pasta/title_screen.tscn
-res://items/coin.tscn
-res://scripts/mundo_01.gd
-res://scripts/Player.gd
 res://Nova pasta/parabens.tscn
+res://scripts/seguntatela.tscn
+res://Nova pasta/game_over.tscn
+res://Nova pasta/creditos.tscn
+res://Nova pasta/jogabilidade.tscn
+res://Nova pasta/pause_menu.tscn
