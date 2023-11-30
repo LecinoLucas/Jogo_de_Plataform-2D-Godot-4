@@ -6,5 +6,6 @@ var life := 4
 var total_coins := 2
 var btnfacil := 1
 var btndificil := 1
+var btnhard :=1
 
 

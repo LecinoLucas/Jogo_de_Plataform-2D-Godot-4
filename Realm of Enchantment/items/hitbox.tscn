@@ -1,11 +1,15 @@
-[gd_scene load_steps=2 format=3 uid="uid://7fi2h4ammkws"]
+[gd_scene load_steps=3 format=3 uid="uid://7fi2h4ammkws"]
+
+[ext_resource type="AudioStream" uid="uid://b8egvcossagw0" path="res://sounds/boss_sound.wav" id="1_0g3n8"]
 
 [sub_resource type="GDScript" id="GDScript_de6a6"]
 script/source = "extends Area2D
+@onready var audio_stream_player = $AudioStreamPlayer as AudioStreamPlayer
 
 
 func _on_body_entered(body: Node2D) -> void:
 	if body.name == \"Player\":
+		audio_stream_player.play()
 		body.velocity.y = body.JUMP_VELOCITY
 		owner.anim.play(\"hurt\")
 "
@@ -13,5 +17,9 @@ func _on_body_entered(body: Node2D) -> void:
 [node name="hitbox" type="Area2D"]
 collision_layer = 16
 script = SubResource("GDScript_de6a6")
+
+[node name="AudioStreamPlayer" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("1_0g3n8")
+volume_db = -7.0
 
 [connection signal="body_entered" from="." to="." method="_on_body_entered"]

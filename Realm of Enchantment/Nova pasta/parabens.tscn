@@ -21,7 +21,7 @@ anchor_right = 1.0
 anchor_bottom = 1.0
 grow_horizontal = 2
 grow_vertical = 2
-color = Color(0.345098, 0.705882, 0.352941, 1)
+color = Color(0.513726, 0.560784, 1, 1)
 
 [node name="VBoxContainer" type="VBoxContainer" parent="."]
 layout_mode = 1
@@ -44,6 +44,18 @@ theme = SubResource("Theme_rx1lk")
 theme_override_font_sizes/font_size = 36
 text = "Parabéns! Você venceu o jogo!"
 
+[node name="Control2" type="Control" parent="VBoxContainer"]
+layout_mode = 2
+
+[node name="Control4" type="Control" parent="VBoxContainer"]
+layout_mode = 2
+
+[node name="Control" type="Control" parent="VBoxContainer"]
+layout_mode = 2
+
+[node name="Control3" type="Control" parent="VBoxContainer"]
+layout_mode = 2
+
 [node name="Label2" type="Label" parent="VBoxContainer"]
 layout_mode = 2
 size_flags_horizontal = 4
@@ -57,6 +69,48 @@ text = "Todas as moedas necessarias foram colhidas
 [node name="HSeparator" type="HSeparator" parent="VBoxContainer"]
 layout_mode = 2
 
+[node name="Control5" type="Control" parent="VBoxContainer"]
+layout_mode = 2
+
+[node name="Control7" type="Control" parent="VBoxContainer"]
+layout_mode = 2
+
+[node name="Control8" type="Control" parent="VBoxContainer"]
+layout_mode = 2
+
+[node name="Control9" type="Control" parent="VBoxContainer"]
+layout_mode = 2
+
+[node name="Control10" type="Control" parent="VBoxContainer"]
+layout_mode = 2
+
+[node name="Control11" type="Control" parent="VBoxContainer"]
+layout_mode = 2
+
+[node name="Control12" type="Control" parent="VBoxContainer"]
+layout_mode = 2
+
+[node name="Control13" type="Control" parent="VBoxContainer"]
+layout_mode = 2
+
+[node name="Control14" type="Control" parent="VBoxContainer"]
+layout_mode = 2
+
+[node name="Control15" type="Control" parent="VBoxContainer"]
+layout_mode = 2
+
+[node name="Control16" type="Control" parent="VBoxContainer"]
+layout_mode = 2
+
+[node name="Control17" type="Control" parent="VBoxContainer"]
+layout_mode = 2
+
+[node name="Control18" type="Control" parent="VBoxContainer"]
+layout_mode = 2
+
+[node name="Control19" type="Control" parent="VBoxContainer"]
+layout_mode = 2
+
 [node name="Button" type="Button" parent="VBoxContainer"]
 layout_mode = 2
 size_flags_horizontal = 4
@@ -67,6 +121,9 @@ layout_mode = 2
 size_flags_horizontal = 4
 text = "Quit Game
 "
+
+[node name="Control6" type="Control" parent="VBoxContainer"]
+layout_mode = 2
 
 [connection signal="pressed" from="VBoxContainer/Button" to="." method="_on_button_pressed"]
 [connection signal="pressed" from="VBoxContainer/Button2" to="." method="_on_button_2_pressed"]

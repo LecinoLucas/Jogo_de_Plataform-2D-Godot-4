@@ -14,27 +14,31 @@ func _ready() -> void:
 	
 	Globals.coins = 0
 	Globals.score = 0
-	if Globals.btnfacil == 2:
-		Globals.life = 4
-	elif Globals.btndificil == 3:
-		Globals.life = 3
 	
+	if Globals.btnfacil == 2:
+		Globals.life = 3
+		
+	elif Globals.btndificil == 3:
+		Globals.life = 2
+		
+	elif Globals.btnhard == 4:
+		Globals.life = 1
 
 
 # Called every frame. 'delta' is the elapsed time since the previous frame.
 func _process(delta):
 	if Globals.btnfacil == 2:
-		#Globals.life = 5
-		# Verificar se todas as moedas foram coletadas e a pontuação é pelo menos 2400
-		if Globals.coins >= 15 and Globals.score >= 600:
+		if Globals.coins >= 15 and Globals.score >= 1000:
 			show_parabens_screen()
 			
 	elif Globals.btndificil == 3:
-		#Globals.life = 3
-			# Verificar se todas as moedas foram coletadas e a pontuação é pelo menos 200
-		if Globals.coins >= 34 and Globals.score >= 2800:
+		if Globals.coins >= 28 and Globals.score >= 2000:
 			show_parabens_screen()
 			
+	elif Globals.btnhard == 4:
+	
+		if Globals.coins >= 34 and Globals.score >= 3000:
+			show_parabens_screen()		
 			
 # Adicione uma nova função para exibir a mensagem de parabéns
 func show_congratulations_message():

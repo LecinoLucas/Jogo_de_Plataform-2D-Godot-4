@@ -1,9 +1,10 @@
-[gd_scene load_steps=9 format=3 uid="uid://dwho6t7nrxytv"]
+[gd_scene load_steps=10 format=3 uid="uid://dwho6t7nrxytv"]
 
 [ext_resource type="Script" path="res://Nova pasta/title_screen.gd" id="1_xki1r"]
 [ext_resource type="Texture2D" uid="uid://bxufg1vf21dpk" path="res://assets/Mini FX, Items & UI/title-screen.jpg" id="2_d1ben"]
 [ext_resource type="Texture2D" uid="uid://cxatf2isxshh1" path="res://assets/Sprite Pack 7/HatchfulExport-All/logo.png" id="2_kwakj"]
-[ext_resource type="Theme" uid="uid://cgng4tspg8dfi" path="res://Nova pasta/new_theme.tres" id="3_tr1c5"]
+[ext_resource type="Theme" uid="uid://cgng4tspg8dfi" path="res://Nova pasta - Copia/new_theme.tres" id="3_tr1c5"]
+[ext_resource type="Theme" uid="uid://cgng4tspg8dfi" path="res://Nova pasta/new_theme.tres" id="5_rhaa2"]
 [ext_resource type="Texture2D" uid="uid://bdan6vbcsukb2" path="res://assets/Sprite Pack 7/3 - Gordon/Standing (48 x 48).png" id="5_wiuwm"]
 
 [sub_resource type="Animation" id="Animation_cqget"]
@@ -124,9 +125,23 @@ theme_override_constants/margin_top = 20
 theme_override_constants/margin_bottom = 20
 
 [node name="HBoxContainer" type="HBoxContainer" parent="MarginContainer"]
+clip_contents = true
 layout_mode = 2
 size_flags_horizontal = 4
 size_flags_vertical = 4
+
+[node name="anim" type="AnimationPlayer" parent="MarginContainer"]
+root_node = NodePath("../..")
+autoplay = "reveal"
+libraries = {
+"": SubResource("AnimationLibrary_buwmb")
+}
+
+[node name="mochi" type="TextureRect" parent="MarginContainer"]
+layout_mode = 2
+size_flags_horizontal = 8
+texture = ExtResource("5_wiuwm")
+expand_mode = 2
 
 [node name="VBoxContainer" type="VBoxContainer" parent="MarginContainer"]
 layout_mode = 2
@@ -157,20 +172,14 @@ layout_mode = 2
 theme = ExtResource("3_tr1c5")
 text = "   JOGABILIDADE "
 
-[node name="anim" type="AnimationPlayer" parent="MarginContainer"]
-root_node = NodePath("../..")
-autoplay = "reveal"
-libraries = {
-"": SubResource("AnimationLibrary_buwmb")
-}
-
-[node name="mochi" type="TextureRect" parent="MarginContainer"]
+[node name="dica_btn" type="Button" parent="MarginContainer/VBoxContainer"]
 layout_mode = 2
-size_flags_horizontal = 8
-texture = ExtResource("5_wiuwm")
-expand_mode = 2
+theme = ExtResource("5_rhaa2")
+text = "DICA
+"
 
 [connection signal="pressed" from="MarginContainer/VBoxContainer/start_btn" to="." method="_on_start_btn_pressed"]
 [connection signal="pressed" from="MarginContainer/VBoxContainer/credits_btn" to="." method="_on_credits_btn_pressed"]
 [connection signal="pressed" from="MarginContainer/VBoxContainer/quit_btn" to="." method="_on_quit_btn_pressed"]
 [connection signal="pressed" from="MarginContainer/VBoxContainer/jog_btn" to="." method="_on_jog_btn_pressed"]
+[connection signal="pressed" from="MarginContainer/VBoxContainer/dica_btn" to="." method="_on_dica_btn_pressed"]

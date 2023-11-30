@@ -1,7 +1,7 @@
 [gd_scene load_steps=3 format=3 uid="uid://cpmd4vw42800v"]
 
 [ext_resource type="Script" path="res://Nova pasta/jogabilidade.gd" id="1_qsyh0"]
-[ext_resource type="Theme" uid="uid://cgng4tspg8dfi" path="res://Nova pasta/new_theme.tres" id="2_s1s5c"]
+[ext_resource type="Theme" uid="uid://cgng4tspg8dfi" path="res://Nova pasta - Copia/new_theme.tres" id="2_s1s5c"]
 
 [node name="Control" type="Control"]
 layout_mode = 3
@@ -19,7 +19,7 @@ anchor_right = 1.0
 anchor_bottom = 1.0
 grow_horizontal = 2
 grow_vertical = 2
-color = Color(0.960784, 0.870588, 0.85098, 0)
+color = Color(0.0470588, 0.0627451, 0.0588235, 0.545098)
 
 [node name="VBoxContainer" type="VBoxContainer" parent="."]
 layout_mode = 1
@@ -30,29 +30,30 @@ grow_horizontal = 2
 grow_vertical = 2
 
 [node name="Control" type="Control" parent="VBoxContainer"]
+custom_minimum_size = Vector2(0, 50)
 layout_mode = 2
 
 [node name="Label" type="Label" parent="VBoxContainer"]
 layout_mode = 2
+size_flags_horizontal = 4
 text = "MODO DE JOGAR:
- - ESC = PAUSE     -  ESPAÇO = PULAR
- - SETAS = FRENTE E PARA TRÁS
- - MOUSE = SELECIONAR 
 
-MODO FÁCIL
- - É PRECISO PEGAR 15 MOEDAS E FAZER 600 PONTOS (MATANDO OS INIMIGOS)
- - COMEÇA COM 5 VIDAS
 
-MODO DIFÍCIL
- - É PRECISO PEGAR 34 MOEDAS E FAZER 2800 PONTOS (MATANDO OS INIMIGOS)
- - COMEÇA COM 3 VIDAS
- 
-INIMIGOS TÊM 100 PONTOS
-BOSS TEM 1000 PONTOS"
+ESC = PAUSE
+ESPAÇO: PULAR
+RIGHT: DIREITA
+LEFT: ESQUERDA
+CURSOR, SETAS E ENTER: SELECIONAR "
 justification_flags = 227
+
+[node name="Control5" type="Control" parent="VBoxContainer"]
+custom_minimum_size = Vector2(0, 100)
+layout_mode = 2
 
 [node name="btnvoltar" type="Button" parent="VBoxContainer"]
 layout_mode = 2
+size_flags_horizontal = 4
+size_flags_vertical = 8
 theme = ExtResource("2_s1s5c")
 text = "VOLTAR"
 

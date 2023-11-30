@@ -7,6 +7,8 @@ const JUMP_VELOCITY = -400.0
 @onready var wall_detection := $wall_detection as RayCast2D
 @onready var texture := $textura as Sprite2D
 @onready var anim := $AnimationPlayer as AnimationPlayer
+@onready var inimigo_sfx = $inimigo_sfx as AudioStreamPlayer
+
 
 var direction := -1
 
@@ -20,6 +22,7 @@ func _physics_process(delta: float) -> void:
 		
 		
 	if wall_detection.is_colliding():
+		
 		direction *= -1
 	wall_detection.scale.x *= -1
 		
@@ -37,5 +40,6 @@ func _physics_process(delta: float) -> void:
 func _on_animation_player_animation_finished(anim_name: String) -> void:
 	if anim_name == "hurt":
 		Globals.score += 100
+		inimigo_sfx.play()
 		queue_free()
 

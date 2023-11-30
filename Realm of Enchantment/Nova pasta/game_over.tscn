@@ -2,7 +2,7 @@
 
 [ext_resource type="Texture2D" uid="uid://co2hxpfxepj28" path="res://assets/Mini FX, Items & UI/Mini UI/game_over.png" id="1_0eiij"]
 [ext_resource type="Script" path="res://scripts/game_over.gd" id="1_ghrvx"]
-[ext_resource type="Theme" uid="uid://cu6lh85qg5k5i" path="res://Nova pasta/tema.tres" id="2_ivyh4"]
+[ext_resource type="Theme" uid="uid://cu6lh85qg5k5i" path="res://Nova pasta - Copia/tema.tres" id="2_ivyh4"]
 
 [sub_resource type="Animation" id="Animation_dbtyt"]
 length = 0.001

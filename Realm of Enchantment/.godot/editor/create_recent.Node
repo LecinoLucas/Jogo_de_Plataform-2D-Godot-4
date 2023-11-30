@@ -1,12 +1,15 @@
-HSeparator
-Control
 Button
-VBoxContainer
-Label
+VSeparator
+TextureRect
+Control
 ColorRect
+Label
+VBoxContainer
+AudioStreamPlayer
+AudioStreamPlayer2D
+HSeparator
 HScrollBar
 AnimationPlayer
-TextureRect
 HBoxContainer
 MarginContainer
 CanvasLayer
@@ -27,4 +30,3 @@ ParallaxLayer
 ParallaxBackground
 Camera2D
 TileMap
-StaticBody2D

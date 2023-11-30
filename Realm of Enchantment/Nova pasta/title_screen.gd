@@ -23,3 +23,7 @@ func _on_quit_btn_pressed():
 
 func _on_jog_btn_pressed():
 	get_tree().change_scene_to_file("res://Nova pasta/jogabilidade.tscn")
+
+
+func _on_dica_btn_pressed():
+	get_tree().change_scene_to_file("res://Nova pasta/dica.tscn")

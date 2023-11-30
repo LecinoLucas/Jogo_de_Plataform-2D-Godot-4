@@ -1,4 +1,4 @@
-[gd_scene load_steps=34 format=3 uid="uid://b27aedcbawa0p"]
+[gd_scene load_steps=35 format=3 uid="uid://b27aedcbawa0p"]
 
 [ext_resource type="Script" path="res://scripts/mundo_01.gd" id="1_14lgv"]
 [ext_resource type="Texture2D" uid="uid://bdp0aap1qlhpn" path="res://assets/Seasonal Tilesets/1 - Grassland/Terrain (16 x 16).png" id="1_dvbw1"]
@@ -26,7 +26,8 @@
 [ext_resource type="Texture2D" uid="uid://dn4vcy65s8hmt" path="res://assets/drive-download-20231116T141523Z-001/Coin-Sprites/02_Coin-Sprites.png" id="23_ttsew"]
 [ext_resource type="Texture2D" uid="uid://bstuh08nhmt8u" path="res://assets/drive-download-20231116T141523Z-001/Coin-Sprites/03_Coin-Sprites.png" id="24_j1jmj"]
 [ext_resource type="Texture2D" uid="uid://bi1ql80ixv6eh" path="res://assets/drive-download-20231116T141523Z-001/Life-Counter-Icon.png" id="25_j0ofm"]
-[ext_resource type="PackedScene" uid="uid://bt2xgynypom0c" path="res://Nova pasta/pause_menu.tscn" id="27_n3b05"]
+[ext_resource type="PackedScene" uid="uid://bt2xgynypom0c" path="res://Nova pasta - Copia/pause_menu.tscn" id="27_n3b05"]
+[ext_resource type="AudioStream" uid="uid://dgfy3ouncf2an" path="res://sounds/bg_music_fundo.wav" id="28_n64u6"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_13vt8"]
 texture = ExtResource("1_dvbw1")
@@ -269,7 +270,7 @@ frame_3/duration = 1.0
 [sub_resource type="SystemFont" id="SystemFont_ehl5o"]
 
 [node name="mundo 01" type="Node2D"]
-position = Vector2(-12, 39)
+position = Vector2(-12, 29)
 script = ExtResource("1_14lgv")
 
 [node name="controles" type="CanvasLayer" parent="."]
@@ -324,10 +325,16 @@ position = Vector2(2025, 54)
 position = Vector2(141, 278)
 
 [node name="inimigo14" parent="inimigos" instance=ExtResource("12_8pthp")]
-position = Vector2(1991, 242)
+position = Vector2(1831, 294)
 
 [node name="inimigo15" parent="inimigos" instance=ExtResource("12_8pthp")]
-position = Vector2(1955, 242)
+position = Vector2(1606, 293)
+
+[node name="inimigo17" parent="inimigos" instance=ExtResource("12_8pthp")]
+position = Vector2(1186, 293)
+
+[node name="inimigo18" parent="inimigos" instance=ExtResource("12_8pthp")]
+position = Vector2(859, 291)
 
 [node name="inimigo16" parent="inimigos" instance=ExtResource("12_8pthp")]
 position = Vector2(1923, 241)
@@ -451,7 +458,7 @@ position = Vector2(2178, 81)
 position = Vector2(2178, 116)
 
 [node name="Player" parent="." instance=ExtResource("3_xylaj")]
-position = Vector2(62, 265)
+position = Vector2(40, 262)
 
 [node name="backgroung" type="ParallaxBackground" parent="."]
 scale = Vector2(1, 1.2)
@@ -561,7 +568,7 @@ grow_horizontal = 2
 grow_vertical = 2
 script = ExtResource("21_r1ofs")
 default_minutes = 2
-default_seconds = 30
+default_seconds = 10
 
 [node name="container" type="MarginContainer" parent="HUD/control"]
 layout_mode = 1
@@ -678,5 +685,10 @@ horizontal_alignment = 1
 autostart = true
 
 [node name="pause_menu" parent="." instance=ExtResource("27_n3b05")]
+
+[node name="bg_music" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("28_n64u6")
+volume_db = -10.4
+autoplay = true
 
 [connection signal="timeout" from="HUD/control/clock_timer" to="HUD/control" method="_on_clock_timer_timeout"]
