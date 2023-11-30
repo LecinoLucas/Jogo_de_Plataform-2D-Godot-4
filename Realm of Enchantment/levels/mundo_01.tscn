@@ -26,7 +26,7 @@
 [ext_resource type="Texture2D" uid="uid://dn4vcy65s8hmt" path="res://assets/drive-download-20231116T141523Z-001/Coin-Sprites/02_Coin-Sprites.png" id="23_ttsew"]
 [ext_resource type="Texture2D" uid="uid://bstuh08nhmt8u" path="res://assets/drive-download-20231116T141523Z-001/Coin-Sprites/03_Coin-Sprites.png" id="24_j1jmj"]
 [ext_resource type="Texture2D" uid="uid://bi1ql80ixv6eh" path="res://assets/drive-download-20231116T141523Z-001/Life-Counter-Icon.png" id="25_j0ofm"]
-[ext_resource type="PackedScene" uid="uid://bt2xgynypom0c" path="res://Nova pasta - Copia/pause_menu.tscn" id="27_n3b05"]
+[ext_resource type="PackedScene" uid="uid://bt2xgynypom0c" path="res://Nova pasta/pause_menu.tscn" id="27_n3b05"]
 [ext_resource type="AudioStream" uid="uid://dgfy3ouncf2an" path="res://sounds/bg_music_fundo.wav" id="28_n64u6"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_13vt8"]

@@ -1,7 +1,7 @@
 [gd_scene load_steps=3 format=3 uid="uid://iop1jvvetsqa"]
 
 [ext_resource type="Script" path="res://Nova pasta/dica.gd" id="1_42wav"]
-[ext_resource type="Theme" uid="uid://cgng4tspg8dfi" path="res://Nova pasta - Copia/new_theme.tres" id="2_yjidl"]
+[ext_resource type="Theme" uid="uid://cgng4tspg8dfi" path="res://Nova pasta/new_theme.tres" id="2_yjidl"]
 
 [node name="Control" type="Control"]
 layout_mode = 3

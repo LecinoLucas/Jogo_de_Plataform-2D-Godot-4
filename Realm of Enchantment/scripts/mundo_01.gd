@@ -15,27 +15,27 @@ func _ready() -> void:
 	Globals.coins = 0
 	Globals.score = 0
 	
-	if Globals.btnfacil == 2:
+	if Globals.nivel == 2:
 		Globals.life = 3
 		
-	elif Globals.btndificil == 3:
+	elif Globals.nivel == 3:
 		Globals.life = 2
 		
-	elif Globals.btnhard == 4:
+	elif Globals.nivel == 4:
 		Globals.life = 1
 
 
 # Called every frame. 'delta' is the elapsed time since the previous frame.
 func _process(delta):
-	if Globals.btnfacil == 2:
+	if Globals.nivel == 2:
 		if Globals.coins >= 15 and Globals.score >= 1000:
 			show_parabens_screen()
 			
-	elif Globals.btndificil == 3:
+	elif Globals.nivel == 3:
 		if Globals.coins >= 28 and Globals.score >= 2000:
 			show_parabens_screen()
 			
-	elif Globals.btnhard == 4:
+	elif Globals.nivel == 4:
 	
 		if Globals.coins >= 34 and Globals.score >= 3000:
 			show_parabens_screen()		

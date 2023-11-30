@@ -1,6 +1,6 @@
 [gd_scene load_steps=3 format=3 uid="uid://d00taae84ajxd"]
 
-[ext_resource type="Theme" uid="uid://cgng4tspg8dfi" path="res://Nova pasta - Copia/new_theme.tres" id="1_g44to"]
+[ext_resource type="Theme" uid="uid://cgng4tspg8dfi" path="res://Nova pasta/new_theme.tres" id="1_g44to"]
 [ext_resource type="Script" path="res://Nova pasta/creditos.gd" id="1_r77ai"]
 
 [node name="Control" type="Control"]

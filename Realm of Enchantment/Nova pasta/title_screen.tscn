@@ -1,9 +1,8 @@
-[gd_scene load_steps=10 format=3 uid="uid://dwho6t7nrxytv"]
+[gd_scene load_steps=9 format=3 uid="uid://dwho6t7nrxytv"]
 
 [ext_resource type="Script" path="res://Nova pasta/title_screen.gd" id="1_xki1r"]
 [ext_resource type="Texture2D" uid="uid://bxufg1vf21dpk" path="res://assets/Mini FX, Items & UI/title-screen.jpg" id="2_d1ben"]
 [ext_resource type="Texture2D" uid="uid://cxatf2isxshh1" path="res://assets/Sprite Pack 7/HatchfulExport-All/logo.png" id="2_kwakj"]
-[ext_resource type="Theme" uid="uid://cgng4tspg8dfi" path="res://Nova pasta - Copia/new_theme.tres" id="3_tr1c5"]
 [ext_resource type="Theme" uid="uid://cgng4tspg8dfi" path="res://Nova pasta/new_theme.tres" id="5_rhaa2"]
 [ext_resource type="Texture2D" uid="uid://bdan6vbcsukb2" path="res://assets/Sprite Pack 7/3 - Gordon/Standing (48 x 48).png" id="5_wiuwm"]
 
@@ -100,7 +99,6 @@ anchor_bottom = 1.0
 grow_horizontal = 2
 grow_vertical = 2
 script = ExtResource("1_xki1r")
-metadata/_edit_use_anchors_ = true
 
 [node name="bg" type="TextureRect" parent="."]
 layout_mode = 1
@@ -154,22 +152,22 @@ expand_mode = 4
 
 [node name="start_btn" type="Button" parent="MarginContainer/VBoxContainer"]
 layout_mode = 2
-theme = ExtResource("3_tr1c5")
+theme = ExtResource("5_rhaa2")
 text = "START"
 
 [node name="credits_btn" type="Button" parent="MarginContainer/VBoxContainer"]
 layout_mode = 2
-theme = ExtResource("3_tr1c5")
+theme = ExtResource("5_rhaa2")
 text = "CREDITOS"
 
 [node name="quit_btn" type="Button" parent="MarginContainer/VBoxContainer"]
 layout_mode = 2
-theme = ExtResource("3_tr1c5")
+theme = ExtResource("5_rhaa2")
 text = "QUIT GAME"
 
 [node name="jog_btn" type="Button" parent="MarginContainer/VBoxContainer"]
 layout_mode = 2
-theme = ExtResource("3_tr1c5")
+theme = ExtResource("5_rhaa2")
 text = "   JOGABILIDADE "
 
 [node name="dica_btn" type="Button" parent="MarginContainer/VBoxContainer"]

@@ -1,6 +1,6 @@
 [gd_scene load_steps=3 format=3 uid="uid://crt5ghump5ihr"]
 
-[ext_resource type="Theme" uid="uid://cgng4tspg8dfi" path="res://Nova pasta - Copia/new_theme.tres" id="1_41mc3"]
+[ext_resource type="Theme" uid="uid://cgng4tspg8dfi" path="res://Nova pasta/new_theme.tres" id="1_41mc3"]
 [ext_resource type="Script" path="res://scripts/seguntatela.gd" id="1_tjkkp"]
 
 [node name="Control" type="Control"]

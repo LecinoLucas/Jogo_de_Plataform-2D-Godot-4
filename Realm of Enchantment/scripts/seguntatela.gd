@@ -12,16 +12,16 @@ func _process(delta):
 
 
 func _on_btnfacil_pressed():
-		Globals.btnfacil = 2
+		Globals.nivel = 2
 		get_tree().change_scene_to_file("res://levels/mundo_01.tscn" )
 
 
 func _on_btndificil_pressed():
-	Globals.btndificil = 3
+	Globals.nivel = 3
 	get_tree().change_scene_to_file("res://levels/mundo_01.tscn" )
 	
 func _on_btnhard_pressed():
-	Globals.btnhard = 4
+	Globals.nivel = 4
 	get_tree().change_scene_to_file("res://levels/mundo_01.tscn" )
 
 
