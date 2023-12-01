@@ -8,8 +8,9 @@
 
 1. Use as teclas de seta para mover o personagem.
 2. Pule sobre inimigos ou evite-os.
-3. Colete todas as moedas em cada fase para avançar.
-4. Alcance a bandeira no final de cada fase para concluir.
+3. Colete todas as moedas para avançar.
+4. Ao derrotar inimigos ganhe pontos.
+5. escolhe o nivel que deseja jogar.
 
 ## Requisitos do Sistema
 
