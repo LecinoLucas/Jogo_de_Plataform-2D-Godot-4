@@ -7,12 +7,12 @@ res://items/hitbox.tscn::cf915100b1a14e920162f878f7666a82::1701281501::res://.go
 res://items/move_plataforma.tscn::3f63109fc15918d571e667dbf09658fe::1701188153::res://.godot/exported/133200997/export-5c39753c142fb24863a8933f42dc304b-move_plataforma.scn
 res://levels/mundo_01.tscn::2fabc25fecd4cc8cec0c90d5e5b6cc89::1701359163::res://.godot/exported/133200997/export-4586d1c4eaef547f209d3b78776fb891-mundo_01.scn
 res://Nova pasta/game_over.tscn::7a57239898dc5e3709e7f423d9d31afb::1701359046::res://.godot/exported/133200997/export-59bb7cecc60f44e758aa3ac4455056e6-game_over.scn
-res://Nova pasta/new_theme.tres::3bceedd7519c108717d134c6b8a19552::1701358941::res://.godot/exported/133200997/export-fd5eaaeef347826e61635641f3e442f2-new_theme.res
+res://Nova pasta/new_theme.tres::3bceedd7519c108717d134c6b8a19552::1701440665::res://.godot/exported/133200997/export-fd5eaaeef347826e61635641f3e442f2-new_theme.res
 res://Nova pasta/parabens.tscn::144195e709f054f4525b6df209695b42::1701359046::res://.godot/exported/133200997/export-c666940dc04a2803f451cded0dd1ae4f-parabens.scn
 res://Nova pasta/pause_menu.tscn::85435d60418095a40567fa6bfb4a7830::1701359048::res://.godot/exported/133200997/export-11979d87b33516380bb881cc653577d5-pause_menu.scn
 res://Nova pasta/tema.tres::504ac30c3bb8fceeeb3a30af4a676d47::1700320213::res://.godot/exported/133200997/export-accb99f502000ad032aef015346c8161-tema.res
 res://Nova pasta/title_screen.tscn::5ab7c170fec2be19d10c1623d02d6d2c::1701359180::res://.godot/exported/133200997/export-338b581c8a1f9c8ee45cb484e91a2d19-title_screen.scn
-res://Nova pasta/creditos.tscn::5ed4cabd6c9c29e12b5d32f3b6655be3::1701359046::res://.godot/exported/133200997/export-fad145cd698e256da9707eae10ecb75f-creditos.scn
+res://Nova pasta/creditos.tscn::04c8e9e88b4dedef6e733deb5e50e9d4::1701440665::res://.godot/exported/133200997/export-fad145cd698e256da9707eae10ecb75f-creditos.scn
 res://Nova pasta/jogabilidade.tscn::a595072a8ec5a47cd8c62311116248b9::1701359047::res://.godot/exported/133200997/export-70918bb740d20fba9c564fed7d06ee49-jogabilidade.scn
 res://scripts/seguntatela.tscn::3e221c5545ee2fc1598ee6ba26187389::1701359046::res://.godot/exported/133200997/export-b69cc05d2fe65a6d152ee992da92ccd9-seguntatela.scn
 res://Nova pasta/dica.tscn::0bdf5ac37b8f341cdc954c4de65159c8::1701359048::res://.godot/exported/133200997/export-b5a08c881a324ca40149bf4017a69d0e-dica.scn

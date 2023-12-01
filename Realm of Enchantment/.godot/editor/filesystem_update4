@@ -1,15 +1,3 @@
-res://scripts/seguntatela.tscn
+res://Nova pasta/creditos.tscn
 res://Nova pasta/new_theme.tres
 res://shader/movementeClould.gdshader
-res://singletons/globals.gd
-res://scripts/seguntatela.gd
-res://levels/mundo_01.tscn
-res://scripts/mundo_01.gd
-res://actor/player.tscn
-res://Nova pasta/title_screen.tscn
-res://Nova pasta/parabens.tscn
-res://Nova pasta/game_over.tscn
-res://Nova pasta/creditos.tscn
-res://Nova pasta/jogabilidade.tscn
-res://Nova pasta/dica.tscn
-res://Nova pasta/pause_menu.tscn
